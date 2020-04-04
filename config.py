@@ -14,7 +14,7 @@ class DefaultConfig(object):
     SECRET_KEY = 'yzssbo'
     # 配置数据库的链接
     # 安装不上mysqlclient使用pymysql驱动方法
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:yao950724@localhost/ihome?charset=utf8mb4'    # 动态追踪修改, 关闭警告信息
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://账号:密码@localhost/ihome?charset=utf8mb4'    # 动态追踪修改, 关闭警告信息
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # 配置服务器中session信息存储的位置，redis数据库, session会话默认不过期
     SESSION_TYPE = 'redis'

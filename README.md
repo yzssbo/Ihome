@@ -9,6 +9,6 @@
 ### 3.提前配置好自己本地的mysql数据库以及redis， 进入到config文件修改为自己的username 和 password
 
 ### 4.进入migrations执行数据库迁移操作  
-######  python manage.py db upgrade
+     ######  python manage.py db upgrade
 
 
